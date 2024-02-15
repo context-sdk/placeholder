@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
 
   s.description      = 'Introducing the most intelligent way to know when and how to monetize your user - available soon'
 
-  s.homepage         = 'https://github.com/contextsdk/ContextSDK'
+  s.homepage         = 'https://contextsdk.com'
   s.license          = { :type => 'commercial' }
-  s.source = { :git => "file://#{File.expand_path("..", __FILE__)}" }
+  s.source = { :git => 'https://github.com/context-sdk/placeholder.git', :tag => s.version.to_s }
   s.author           = { 'KrauseFx' => 'felix@contextsdk.com' }
   s.social_media_url = 'https://twitter.com/context_sdk'
 
