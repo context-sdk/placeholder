@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ContextSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Introducing the most intelligent way to know when and how to monetize your user'
 
   s.description      = 'Introducing the most intelligent way to know when and how to monetize your user - available soon'
