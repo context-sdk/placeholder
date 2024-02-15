@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ContextSDK_Tests' do
+  pod 'ContextSDK', :path => '../'
+  
+  
+end
