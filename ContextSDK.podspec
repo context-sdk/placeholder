@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://contextsdk.com'
   s.license          = { :type => 'commercial' }
-  s.source = { :git => 'https://github.com/context-sdk/placeholder.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/context-sdk/placeholder.git', :branch => 'master'}
   s.author           = { 'KrauseFx' => 'felix@contextsdk.com' }
   s.social_media_url = 'https://twitter.com/context_sdk'
 
