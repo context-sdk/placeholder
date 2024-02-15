@@ -1,42 +1,16 @@
-#
-# Be sure to run `pod lib lint ContextSDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'ContextSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ContextSDK.'
+  s.version          = '0.0.2'
+  s.summary          = 'Introducing the most intelligent way to know when and how to monetize your user'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = 'Introducing the most intelligent way to know when and how to monetize your user - available soon'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/KrauseFx/ContextSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'KrauseFx' => 'felix@krausefx.com' }
-  s.source           = { :git => 'https://github.com/KrauseFx/ContextSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/contextsdk/ContextSDK'
+  s.license          = { :type => 'commercial' }
+  s.source = { :git => "file://#{File.expand_path("..", __FILE__)}" }
+  s.author           = { 'KrauseFx' => 'felix@contextsdk.com' }
+  s.social_media_url = 'https://twitter.com/context_sdk'
 
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'ContextSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ContextSDK' => ['ContextSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
